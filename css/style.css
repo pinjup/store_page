@@ -1,0 +1,496 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    background-color: rgb(14, 18, 32);
+    font-size: 62.5%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+
+nav {
+    width: 100%;
+    height: 7.0rem;
+    padding-top: 0rem;
+    border-bottom: 1px solid white;
+    background-color: rgb(52, 66, 115);
+}
+
+.logo {
+    border: 0.1rem solid white;
+    position: relative;
+    margin: 0.6rem;
+    border-radius: 3.0rem;
+    left: 0%;
+    top: 1rem;
+    width: 6.0rem;
+}
+nav a {
+    position: relative;
+    padding-top: 6.0rem;
+    padding-bottom: 0.7rem;
+    bottom: 3.6rem;
+}
+
+.car-shop {
+    position: absolute;
+    margin: 0.6rem;
+    left: 88%;
+    margin-right: 1.6rem;
+    bottom: 91%;
+    width: 6.0rem;
+    cursor: pointer;
+}
+
+
+nav #list-type-products li {
+    cursor: pointer;
+    color: white;
+    display: inline-block;
+    position: relative;
+    margin-left: 1.5%;
+    margin-right: 2.5%;
+    font-size: 2.0rem;
+    left: 20%;
+    top: 2.5rem;
+
+}
+nav #list-type-products li:hover {
+    color: black;
+}
+.menu-hamburguer li {
+    position: relative;
+    top: 10.6rem;
+    margin: 1.6rem;
+    margin-left: 3.5rem;
+    list-style: none;
+    color: white;
+    font-size: 5.2rem;
+    cursor: pointer;
+}
+
+.menu-hamburguer li:hover {
+    color: blue;
+}
+
+.options-products {
+    background-color: rgb(14, 18, 32);
+    position: relative;
+    bottom: 3.9rem;
+    width: 100%;
+    height: 75.0rem;
+}
+#lines-3 {
+    position: relative;
+    bottom: 44.5%;
+    right: 55%;
+    border-radius: 0.3rem;
+    /* left: 8.0rem;
+    bottom: 4.0rem; */
+    width: 6.0rem;
+    margin-left: 0.5rem;
+    cursor: pointer;
+}
+
+.products-box-man {
+    margin-left: 12%;
+}
+
+/* Man */
+.products-box-man .product-item {
+    margin-top: 3.0rem;
+    position: relative;
+    margin-right: -22.6rem;
+    float: left;
+}
+
+
+.products-box-man .product-item img {
+    border-radius: 2.0rem;
+    width: 24.0rem;
+    margin: 1.6rem;
+    margin-bottom: 2.6rem;
+}
+
+.products-box-man .product-item .title {
+    font-size: 2.0rem;
+    color: white;
+    position: relative;
+    top: -0.2rem;
+    right: 24.5rem;
+    text-align: center;
+}
+
+
+.products-box-man .product-item .description {
+    font-size: 1.2rem;
+    color: gray;
+    position: relative;
+    top: 1.6rem;
+    right: 35.4rem;
+    text-align: center;
+}
+
+.products-box-man .product-item .price {
+    font-size: 2.0rem;
+    color: white;
+    position: relative;
+    top: 4.0rem;
+    right: 42.2rem;
+    text-align: center;
+}
+
+.products-box-woman {
+    margin-left: 12%;
+}
+
+/* Woman */
+.products-box-woman .product-item {
+    margin-top: 3.0rem;
+    position: relative;
+    margin-right: -23.6rem;
+    float: left;
+}
+
+
+.products-box-woman .product-item img {
+    border-radius: 2.0rem;
+    width: 24.0rem;
+    margin: 1.6rem;
+    margin-bottom: 2.6rem;
+}
+
+.products-box-woman .product-item .title {
+    font-size: 2.0rem;
+    color: white;
+    position: relative;
+    top: -0.2rem;
+    right: 24.5rem;
+    text-align: center;
+}
+
+
+.products-box-woman .product-item .description {
+    font-size: 1.2rem;
+    color: gray;
+    position: relative;
+    top: 1.6rem;
+    right: 36.7rem;
+    text-align: center;
+}
+
+.products-box-woman .product-item .price {
+    font-size: 2.0rem;
+    color: white;
+    position: relative;
+    top: 4.0rem;
+    right: 44.2rem;
+    text-align: center;
+}
+
+/* Kids */
+
+.products-box-kids {
+    margin-left: 12%;
+}
+
+.products-box-kids .product-item {
+    margin-top: 3.0rem;
+    position: relative;
+    margin-right: -19.5rem;
+    float: left;
+}
+
+
+.products-box-kids .product-item img {
+    border-radius: 2.0rem;
+    height: 24.6rem;
+    width: 24.2rem;
+    margin: 1.6rem;
+    margin-bottom: 2.6rem;
+}
+
+.products-box-kids .product-item .title {
+    font-size: 2.0rem;
+    color: white;
+    position: relative;
+    top: -0.2rem;
+    right: 24.5rem;
+    text-align: center;
+}
+
+
+.products-box-kids .product-item .description {
+    font-size: 1.2rem;
+    color: gray;
+    position: relative;
+    top: 1.6rem;
+    right: 34.0rem;
+    text-align: center;
+}
+
+.products-box-kids .product-item .price {
+    font-size: 2.0rem;
+    color: white;
+    position: relative;
+    top: 4.0rem;
+    right: 40.2rem;
+    text-align: center;
+}
+
+.we-box {
+    position: relative;
+    bottom: 2.3rem;
+    left: 10%;
+    width: 80%;
+    height: 80.0rem;
+}
+
+.we-box ul li {
+    display: inline-block;
+}
+
+.we-box span {
+    color: white;
+    font-size: 3.0rem;
+    text-align: justify;
+    position: relative;
+    top: 2.0rem;
+    left: 1.2rem;
+}
+
+.we-box img {
+    position: relative;
+    float: left;
+    margin-right: 2.0rem;
+    left: 4.6rem;
+    width: 16.0rem;
+    top: 10.0rem;
+}
+
+.we-box .github-logo {
+    background-color: white;
+    border-radius: 8.0rem;
+}
+
+.inactive {
+    display: none;
+}
+/* Media queries */
+@media (max-width: 700px) {
+    .logo {
+        /* display: none; */
+        margin-top: 3.5rem;
+        left: 0%;
+        width: 8.0rem;
+        border-radius: 4.0rem;
+    }
+    .car-shop {
+        /* display: none; */
+        left: 80%;
+        bottom: 88%;
+        width: 8.0rem;
+    }
+    nav {
+        height: 10.0rem;
+    }
+    nav #list-type-products li {
+        /* padding: 0.31rem;
+        margin-left: 2.5%;
+        font-size: 1.5rem; */
+        display: none;
+    }
+
+    nav a {
+        margin-left: 40%;
+        padding-top: 20%;
+    }
+
+
+.products-box-man {
+    margin-left: 12%;
+}
+.products-box-man .product-item {
+    margin-top: 3.0rem;
+    position: relative;
+    margin-right: -17.6rem;
+    float: left;
+}
+
+
+.products-box-man .product-item .title {
+    font-size: 1.6rem;
+    color: white;
+    position: relative;
+    top: 0.6rem;
+    right: 17.5rem;
+    text-align: center;
+}
+
+
+.products-box-man .product-item .description {
+    font-size: 0.8rem;
+    color: gray;
+    position: relative;
+    top: 1.8rem;
+    right: 26.4rem;
+    text-align: center;
+}
+
+.products-box-man .product-item .price {
+    font-size: 1.6rem;
+    color: white;
+    position: relative;
+    top: 3.6rem;
+    right: 31.0rem;
+    text-align: center;
+}
+
+.products-box-man .product-item img {
+    border-radius: 1.6rem;
+    width: 18.0rem;
+    margin: 1.6rem;
+}
+
+.products-box-woman {
+    margin-left: 12%;
+}
+
+.products-box-woman .product-item {
+    margin-top: 3.0rem;
+    position: relative;
+    margin-right: -18.6rem;
+    float: left;
+}
+
+
+.products-box-woman .product-item .title {
+    font-size: 1.6rem;
+    color: white;
+    position: relative;
+    top: 0.6rem;
+    right: 17.5rem;
+    text-align: center;
+}
+
+
+.products-box-woman .product-item .description {
+    font-size: 0.8rem;
+    color: gray;
+    position: relative;
+    top: 1.8rem;
+    right: 27.4rem;
+    text-align: center;
+}
+
+.products-box-woman .product-item .price {
+    font-size: 1.6rem;
+    color: white;
+    position: relative;
+    top: 3.6rem;
+    right: 32.5rem;
+    text-align: center;
+}
+
+.products-box-woman .product-item img {
+    border-radius: 1.6rem;
+    width: 18.0rem;
+    margin: 1.6rem;
+
+}
+.products-box-kids {
+    margin-left: 12%;
+}
+.products-box-kids .product-item {
+    margin-top: 3.0rem;
+    position: relative;
+    margin-right: -15.6rem;
+    float: left;
+}
+
+
+.products-box-kids .product-item .title {
+    font-size: 1.6rem;
+    color: white;
+    position: relative;
+    top: 0.6rem;
+    right: 17.5rem;
+    text-align: center;
+}
+
+
+.products-box-kids .product-item .description {
+    font-size: 0.8rem;
+    color: gray;
+    position: relative;
+    top: 1.8rem;
+    right: 25.2rem;
+    text-align: center;
+}
+
+.products-box-kids .product-item .price {
+    font-size: 1.6rem;
+    color: white;
+    position: relative;
+    top: 3.6rem;
+    right: 29.4rem;
+    text-align: center;
+}
+
+.products-box-kids .product-item img {
+    border-radius: 1.6rem;
+    height: 18.0rem;
+    width: 18.0rem;
+    margin: 1.6rem;
+}
+
+.we-box {
+    position: relative;
+    bottom: 2.3rem;
+    left: 10%;
+    width: 80%;
+    height: 80.0rem;
+}
+
+.we-box ul li {
+    display: inline-block;
+}
+
+.we-box span {
+    color: white;
+    font-size: 2.0rem;
+    text-align: justify;
+    position: relative;
+    top: 2.0rem;
+    left: 1.2rem;
+}
+
+.we-box img {
+    position: relative;
+    float: left;
+    margin-right: 1.6rem;
+    left: 4.6rem;
+    width: 8.6rem;
+    top: 8.6rem;
+}
+
+.we-box .github-logo {
+    background-color: white;
+    border-radius: 5.0rem;
+}
+
+
+}
+
+@media (min-width: 701px) {
+    #lines-3 {
+        display: none;
+    }
+    .options-products {
+        display: none;
+    }
+}
+
